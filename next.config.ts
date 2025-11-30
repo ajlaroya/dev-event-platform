@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  reactCompiler: true,
+  experimental: {
+    turbopackFileSystemCacheForDev: true,
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -30,3 +34,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// 57:03
