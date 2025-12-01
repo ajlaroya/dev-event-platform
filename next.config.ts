@@ -34,5 +34,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-// 57:03
