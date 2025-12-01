@@ -1,4 +1,6 @@
-const Page = () => {
-  return <div>Page</div>;
+const EventDetailsPage = () => {
+  return <div>EventDetailsPage</div>;
 };
-export default Page;
+export default EventDetailsPage;
+
+// 2:49:11
