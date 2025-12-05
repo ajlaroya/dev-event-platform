@@ -1,0 +1,230 @@
+// database/seed-data.ts
+
+export const sampleEvents = [
+  {
+    title: "Web Development Bootcamp 2025",
+    description:
+      "Learn modern web development with React, Next.js, and Node.js. This intensive bootcamp covers full-stack development, from frontend frameworks to backend APIs.",
+    overview: "Comprehensive full-stack web development training",
+    image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    venue: "Tech Hub Downtown",
+    location: "San Francisco, CA",
+    date: "2025-01-15",
+    time: "09:00",
+    mode: "hybrid",
+    audience: "Beginners to Intermediate developers",
+    agenda: [
+      "Introduction to modern web frameworks",
+      "Building REST APIs",
+      "Database design and optimization",
+      "Deployment and DevOps basics",
+    ],
+    organizer: "Tech Academy Inc.",
+    tags: ["web-development", "react", "nextjs", "nodejs", "bootcamp"],
+  },
+  {
+    title: "AI & Machine Learning Summit",
+    description:
+      "Explore the latest trends in artificial intelligence and machine learning. Network with industry experts and learn practical applications of AI in business.",
+    overview: "Latest trends and applications in AI and ML",
+    image:
+      "https://images.unsplash.com/photo-1677442d019cecf8c77a7e50d5dd0033fecb34b39?w=600&h=400&fit=crop",
+    venue: "Convention Center Hall A",
+    location: "New York, NY",
+    date: "2025-02-10",
+    time: "10:00",
+    mode: "offline",
+    audience: "Data Scientists, AI Engineers, Tech Enthusiasts",
+    agenda: [
+      "AI fundamentals and evolution",
+      "Deep Learning in practice",
+      "Natural Language Processing workshop",
+      "Business applications of AI",
+    ],
+    organizer: "AI Research Institute",
+    tags: ["ai", "machine-learning", "data-science", "deep-learning"],
+  },
+  {
+    title: "GraphQL Advanced Patterns Workshop",
+    description:
+      "Deep dive into advanced GraphQL patterns and best practices. Learn how to optimize queries, implement caching strategies, and build scalable APIs.",
+    overview: "Master advanced GraphQL patterns and optimization",
+    image:
+      "https://images.unsplash.com/photo-1516534775068-bb57e39c8ac3?w=600&h=400&fit=crop",
+    venue: "Developer's Hub",
+    location: "Austin, TX",
+    date: "2025-01-22",
+    time: "14:00",
+    mode: "online",
+    audience: "Backend developers with GraphQL experience",
+    agenda: [
+      "Advanced query optimization",
+      "Caching strategies",
+      "Error handling and logging",
+      "Real-time subscriptions",
+    ],
+    organizer: "GraphQL Foundation",
+    tags: ["graphql", "api", "backend", "optimization", "workshop"],
+  },
+  {
+    title: "UX/UI Design Conference 2025",
+    description:
+      "Connect with leading designers and learn about the latest design trends, tools, and methodologies. Hands-on sessions and keynotes from industry pioneers.",
+    overview: "Latest trends and best practices in UX/UI design",
+    image:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+    venue: "Creative Studios Complex",
+    location: "Los Angeles, CA",
+    date: "2025-03-05",
+    time: "09:00",
+    mode: "hybrid",
+    audience: "Designers, Product Managers, Design Enthusiasts",
+    agenda: [
+      "Design systems and components",
+      "Accessibility best practices",
+      "Interaction design trends",
+      "Design tools showcase",
+    ],
+    organizer: "Design Community Global",
+    tags: ["design", "ux-ui", "figma", "accessibility", "conference"],
+  },
+  {
+    title: "DevOps & Cloud Infrastructure Meetup",
+    description:
+      "Learn about containerization, Kubernetes, CI/CD pipelines, and cloud deployment strategies. Perfect for DevOps engineers and system administrators.",
+    overview: "Master DevOps and cloud infrastructure management",
+    image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    venue: "Cloud Hub Seattle",
+    location: "Seattle, WA",
+    date: "2025-01-30",
+    time: "18:00",
+    mode: "online",
+    audience: "DevOps Engineers, System Administrators, Backend Developers",
+    agenda: [
+      "Docker and containerization",
+      "Kubernetes orchestration",
+      "CI/CD pipeline setup",
+      "Cloud cost optimization",
+    ],
+    organizer: "Cloud Native Foundation",
+    tags: ["devops", "kubernetes", "docker", "ci-cd", "cloud"],
+  },
+  {
+    title: "Mobile App Development with React Native",
+    description:
+      "Build cross-platform mobile applications using React Native. Learn how to leverage JavaScript to create iOS and Android apps efficiently.",
+    overview: "Cross-platform mobile development with React Native",
+    image:
+      "https://images.unsplash.com/photo-1512941691920-25bda36dc643?w=600&h=400&fit=crop",
+    venue: "Mobile Dev Center",
+    location: "Toronto, ON",
+    date: "2025-02-18",
+    time: "13:00",
+    mode: "hybrid",
+    audience: "Frontend developers, Mobile developers",
+    agenda: [
+      "React Native fundamentals",
+      "Navigation and routing",
+      "Native modules integration",
+      "Performance optimization and deployment",
+    ],
+    organizer: "React Community",
+    tags: ["react-native", "mobile", "javascript", "ios", "android"],
+  },
+  {
+    title: "Cybersecurity & Web Security Summit",
+    description:
+      "Learn about the latest security threats, vulnerabilities, and mitigation strategies. Expert talks on penetration testing, secure coding, and compliance.",
+    overview: "Comprehensive guide to web and cybersecurity",
+    image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    venue: "Security Conference Center",
+    location: "Boston, MA",
+    date: "2025-02-25",
+    time: "10:00",
+    mode: "offline",
+    audience: "Security professionals, Developers, IT managers",
+    agenda: [
+      "OWASP Top 10 vulnerabilities",
+      "Penetration testing techniques",
+      "Secure coding practices",
+      "Compliance and regulations",
+    ],
+    organizer: "Cybersecurity Institute",
+    tags: [
+      "security",
+      "cybersecurity",
+      "owasp",
+      "penetration-testing",
+      "compliance",
+    ],
+  },
+  {
+    title: "TypeScript Advanced Types & Patterns",
+    description:
+      "Master advanced TypeScript concepts including generics, utility types, decorators, and design patterns. Build type-safe applications with confidence.",
+    overview: "Advanced TypeScript concepts and patterns",
+    image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    venue: "Code Lab Studio",
+    location: "Chicago, IL",
+    date: "2025-02-03",
+    time: "15:00",
+    mode: "online",
+    audience: "Intermediate to Advanced TypeScript developers",
+    agenda: [
+      "Generics and constraints",
+      "Utility types and conditional types",
+      "Decorators and metadata",
+      "Design patterns in TypeScript",
+    ],
+    organizer: "TypeScript Community",
+    tags: ["typescript", "javascript", "advanced", "design-patterns"],
+  },
+  {
+    title: "Database Design & Optimization Masterclass",
+    description:
+      "Learn database design principles, query optimization, indexing strategies, and scaling techniques for both SQL and NoSQL databases.",
+    overview: "Database design, optimization, and scaling",
+    image:
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop",
+    venue: "Data Center Hall",
+    location: "Denver, CO",
+    date: "2025-03-12",
+    time: "11:00",
+    mode: "hybrid",
+    audience: "Database administrators, Backend developers, Data engineers",
+    agenda: [
+      "Relational database design",
+      "NoSQL database patterns",
+      "Query optimization techniques",
+      "Scaling and partitioning strategies",
+    ],
+    organizer: "Database Academy",
+    tags: ["database", "sql", "nosql", "mongodb", "optimization"],
+  },
+  {
+    title: "Web Performance & Core Web Vitals Optimization",
+    description:
+      "Optimize your web applications for speed and performance. Learn about Core Web Vitals, lighthouse metrics, and practical optimization techniques.",
+    overview: "Master web performance optimization",
+    image:
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+    venue: "Performance Lab",
+    location: "Portland, OR",
+    date: "2025-01-20",
+    time: "16:00",
+    mode: "online",
+    audience: "Frontend developers, Performance engineers, Web developers",
+    agenda: [
+      "Understanding Core Web Vitals",
+      "Image and asset optimization",
+      "Code splitting and lazy loading",
+      "Monitoring and analytics",
+    ],
+    organizer: "Web Performance Society",
+    tags: ["performance", "web-vitals", "optimization", "frontend"],
+  },
+];
