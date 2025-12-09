@@ -7,7 +7,7 @@ export const sampleEvents = [
       "Learn modern web development with React, Next.js, and Node.js. This intensive bootcamp covers full-stack development, from frontend frameworks to backend APIs.",
     overview: "Comprehensive full-stack web development training",
     image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Tech Hub Downtown",
     location: "San Francisco, CA",
     date: "2025-01-15",
@@ -29,7 +29,7 @@ export const sampleEvents = [
       "Explore the latest trends in artificial intelligence and machine learning. Network with industry experts and learn practical applications of AI in business.",
     overview: "Latest trends and applications in AI and ML",
     image:
-      "https://images.unsplash.com/photo-1677442d019cecf8c77a7e50d5dd0033fecb34b39?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1677442d019cecf8c77a7e50d5dd0033fecb34b39?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Convention Center Hall A",
     location: "New York, NY",
     date: "2025-02-10",
@@ -51,7 +51,7 @@ export const sampleEvents = [
       "Deep dive into advanced GraphQL patterns and best practices. Learn how to optimize queries, implement caching strategies, and build scalable APIs.",
     overview: "Master advanced GraphQL patterns and optimization",
     image:
-      "https://images.unsplash.com/photo-1516534775068-bb57e39c8ac3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Developer's Hub",
     location: "Austin, TX",
     date: "2025-01-22",
@@ -73,7 +73,7 @@ export const sampleEvents = [
       "Connect with leading designers and learn about the latest design trends, tools, and methodologies. Hands-on sessions and keynotes from industry pioneers.",
     overview: "Latest trends and best practices in UX/UI design",
     image:
-      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Creative Studios Complex",
     location: "Los Angeles, CA",
     date: "2025-03-05",
@@ -95,7 +95,7 @@ export const sampleEvents = [
       "Learn about containerization, Kubernetes, CI/CD pipelines, and cloud deployment strategies. Perfect for DevOps engineers and system administrators.",
     overview: "Master DevOps and cloud infrastructure management",
     image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1667482634667-45fb89f06219?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Cloud Hub Seattle",
     location: "Seattle, WA",
     date: "2025-01-30",
@@ -117,7 +117,7 @@ export const sampleEvents = [
       "Build cross-platform mobile applications using React Native. Learn how to leverage JavaScript to create iOS and Android apps efficiently.",
     overview: "Cross-platform mobile development with React Native",
     image:
-      "https://images.unsplash.com/photo-1512941691920-25bda36dc643?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1512941691920-25bda36dc643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Mobile Dev Center",
     location: "Toronto, ON",
     date: "2025-02-18",
@@ -139,7 +139,7 @@ export const sampleEvents = [
       "Learn about the latest security threats, vulnerabilities, and mitigation strategies. Expert talks on penetration testing, secure coding, and compliance.",
     overview: "Comprehensive guide to web and cybersecurity",
     image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1563986768609-7aa3f1ce9ecd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Security Conference Center",
     location: "Boston, MA",
     date: "2025-02-25",
@@ -167,7 +167,7 @@ export const sampleEvents = [
       "Master advanced TypeScript concepts including generics, utility types, decorators, and design patterns. Build type-safe applications with confidence.",
     overview: "Advanced TypeScript concepts and patterns",
     image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1516534775068-bb57e39c8ac3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Code Lab Studio",
     location: "Chicago, IL",
     date: "2025-02-03",
@@ -189,7 +189,7 @@ export const sampleEvents = [
       "Learn database design principles, query optimization, indexing strategies, and scaling techniques for both SQL and NoSQL databases.",
     overview: "Database design, optimization, and scaling",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Data Center Hall",
     location: "Denver, CO",
     date: "2025-03-12",
@@ -211,7 +211,7 @@ export const sampleEvents = [
       "Optimize your web applications for speed and performance. Learn about Core Web Vitals, lighthouse metrics, and practical optimization techniques.",
     overview: "Master web performance optimization",
     image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1460925895917-aeb19be489c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
     venue: "Performance Lab",
     location: "Portland, OR",
     date: "2025-01-20",
