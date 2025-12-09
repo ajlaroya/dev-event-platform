@@ -17,5 +17,3 @@ const EventDetailsPage = async ({
   );
 };
 export default EventDetailsPage;
-
-// 3:34:16
